@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+.post{
+    width: 50%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    background-color: white;
+}
+.header img{
+    width: 15%;
+    height: 15%;
+    background-color: white;
+    margin: 1.5%;
+    border-radius: 100%;
+}
+.header .name{
+    height: 10%;
+    width: 67%;
+    margin: 1.5%;
+}
+.header h1{
+    font-size: 5.5vh;
+    margin: 0px;
+}
+.header p{
+    font-size: 4.5vh;
+    margin: 0px;
+}
+.fa-solid{
+    width: 9%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 11vh;
+    text-align: right;
+}
+.image img{
+    width: 100%;
+}
+.post .footer{
+    background-color: white;
+}
+.options{
+    background-color: white;
+    font-size: 5vh;
+}
+.fa-heart{
+    font-size: 1em;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.fa-comment,
+.fa-paper-plane{
+    font-size: 1em;
+}
+.fa-bookmark{
+    font-size: 1em;
+    position: relative;
+    right: -58%;
+}
+.footer .caption{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.footer .caption .description,
+.footer .caption .likes{
+    font-size: 2vw;
+    text-align: justify;
+}
+.footer .caption .description{
+    padding-bottom: 5%;
+}
